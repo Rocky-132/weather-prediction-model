@@ -1,9 +1,9 @@
 # weather-prediction-model
  Machine Learning Weather Prediction System built with Python & Scikit-learn. Generates synthetic weather data, trains a Random Forest model, visualizes trends, and predicts tomorrow’s temperature using humidity, pressure, wind speed, and temperature inputs. Includes data visualization and CLI support.
 
-# 🌦️ Weather Prediction ML Project
+ Weather Prediction ML Project
 
-## 📌 Overview
+ Overview
 
 This project is a Machine Learning-based Weather Prediction System developed using Python and Scikit-learn. It predicts tomorrow’s temperature based on current weather conditions such as temperature, humidity, wind speed, and atmospheric pressure.
 
@@ -16,7 +16,7 @@ The project includes:
 
 ---
 
-## 🚀 Features
+ Features
 
 * Generate synthetic weather datasets
 * Train a Random Forest Regression model
@@ -26,7 +26,7 @@ The project includes:
 
 ---
 
-## 🛠️ Technologies Used
+Technologies Used
 
 * Python
 * Pandas
@@ -38,7 +38,7 @@ The project includes:
 
 ---
 
-## 📂 Project Structure
+ Project Structure
 
 ```bash
 ├── generate_data.py      # Generate synthetic weather dataset
@@ -52,7 +52,7 @@ The project includes:
 
 ---
 
-## ⚙️ Installation
+ Installation
 
 Clone the repository:
 
@@ -69,27 +69,27 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+ Usage
 
-### 1️⃣ Generate Dataset
+ Generate Dataset
 
 ```bash
 python generate_data.py
 ```
 
-### 2️⃣ Train Model
+ Train Model
 
 ```bash
 python train_model.py
 ```
 
-### 3️⃣ Predict Weather
+ Predict Weather
 
 ```bash
 python predict.py --temp 30 --humidity 65 --wind 12 --pressure 1010
 ```
 
-### 4️⃣ Visualize Results
+ Visualize Results
 
 ```bash
 python visualize.py
@@ -97,7 +97,7 @@ python visualize.py
 
 ---
 
-## 📊 Model Details
+ Model Details
 
 The project uses:
 
@@ -109,7 +109,7 @@ The project uses:
 
 ---
 
-## 📈 Example Prediction
+ Example Prediction
 
 ```bash
 Current Temperature: 30°C
@@ -122,7 +122,7 @@ Predicted Tomorrow's Temperature: 29.42°C
 
 ---
 
-## 🔮 Future Improvements
+ Future Improvements
 
 * Use real-time weather APIs
 * Add deep learning models (LSTM)
@@ -131,6 +131,6 @@ Predicted Tomorrow's Temperature: 29.42°C
 
 ---
 
-## 👨‍💻 Author
+ Author
 
 Developed by Devendra Rakesh Vajrapu
